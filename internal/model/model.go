@@ -1,9 +1,9 @@
 package model
 
 import (
+	"blog-service/global"
+	"blog-service/pkg/setting"
 	"fmt"
-	"github.com/go-programming-tour-book/blog-service/global"
-	"github.com/go-programming-tour-book/blog-service/pkg/setting"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
