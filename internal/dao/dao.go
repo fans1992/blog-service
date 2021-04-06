@@ -9,5 +9,3 @@ type Dao struct {
 func New(engine *gorm.DB) *Dao {
 	return &Dao{engine: engine}
 }
-
-
