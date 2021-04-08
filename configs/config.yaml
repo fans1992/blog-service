@@ -31,3 +31,12 @@ JWT:
   Secret: eddycjy
   Issuer: blog-service
   Expire: 7200
+Email:
+  Host: smtpdm.aliyun.com
+  Port: 465
+  UserName: customer@notice.jiaomaip.com
+  Password: FORIDOMshby4101
+  IsSSL: true
+  From: customer@notice.jiaomaip.com
+  To:
+    - xxxx@qq.com
