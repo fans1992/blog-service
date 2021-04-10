@@ -12,6 +12,7 @@ App:
   UploadSavePath: storage/uploads
   UploadServerUrl: http://127.0.0.1:9999/static
   UploadImageMaxSize: 5  # MB
+  DefaultContextTimeout: 60
   UploadImageAllowExts:
     - .jpg
     - .jpeg
